@@ -101,6 +101,7 @@ const Hero = () => {
 
           <div className="absolute bottom-[-50px] w-full  z-10 flex justify-center items-center  ">
             <div className="bg-white rounded-full shadow-lg py-8 px-9 flex flex-wrap justify-center gap-7  ">
+             
               <input
                 type="text"
                 placeholder="Search Inventory"
