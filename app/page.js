@@ -12,11 +12,11 @@ export default function Home() {
     <div className="font-[family-name:var(--font-inter-sans)]">
       <Navbar />
       <Hero/>
-      <FeaturedCars/>
-      <AddLoanCalculator/>
-      <SellYourCar/>
-      <FinalCta/>
-      <Footer/>
+      {/* <FeaturedCars/> */}
+      {/* <AddLoanCalculator/> */}
+      {/* <SellYourCar/> */}
+      {/* <FinalCta/> */}
+      {/* <Footer/> */}
     </div>
   );
 }

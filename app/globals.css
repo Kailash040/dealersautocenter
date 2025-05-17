@@ -47,3 +47,10 @@ body {
   height: 25px;
   box-shadow: 0 0 8px rgba(255, 90, 95, 0.6);
 }
+
+@media (max-width:402px) {
+.swiper .swiper-pagination {
+  top: -170px !important; /* Upar kitna le jana hai */
+ 
+}
+}
