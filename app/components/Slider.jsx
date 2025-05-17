@@ -11,14 +11,14 @@ const Slider = () => {
   return (
     <div>
           <div>
-          <div className="pl-20 flex justify-between items-center pt-10">
+          <div className="pl-20 flex justify-between items-center pt-10 max-sm:px-5">
             <div>
-              <h4 className="text-4xl text-[#9A1B1B] font-semibold">
+              <h4 className="text-4xl text-[#9A1B1B] font-semibold max-sm:text-2xl">
                 Featured Cars
               </h4>
             </div>
             <div>
-              <button className="pr-10 text-2xl text-[#864649] font-medium flex curser-pointer swiper-button-next-custom">
+              <button className="pr-10 text-2xl text-[#864649] font-medium flex curser-pointer swiper-button-next-custom max-sm:pr-0 max-sm:text-xl">
                 <p>See more </p>{" "}
                 <div>
                   <div>
@@ -43,7 +43,7 @@ const Slider = () => {
             </div>
           </div>
           {/*  */}
-          <div className="pl-20 mt-5 flex gap-5 flex-wrap">
+          <div className="pl-20 mt-5 flex gap-5 flex-wrap max-sm:pl-5">
             <Swiper
               slidesPerView={4}
               spaceBetween={30}
@@ -55,6 +55,28 @@ const Slider = () => {
                 prevEl: ".swiper-button-prev-custom",
                 nextEl: ".swiper-button-next-custom",
               }}
+              breakpoints={{
+                  320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+     1280: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+  }}
               modules={[Navigation]}
               className="mySwiper2"
             >

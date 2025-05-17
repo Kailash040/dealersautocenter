@@ -17,15 +17,15 @@ const FeaturedCars = () => {
        <Slider/>
       </div>
       {/*  */}
-      <div className="mt-10 flex  gap-5 items-center">
-        <div className="pl-20">
-          <p className="text-[#222222] font-semibold text-2xl">
-            Browse Cars <br /> By
+      <div className="mt-10 flex  gap-5 items-center max-[1040px]:flex-col">
+        <div className="pl-20 max-[1040px]:flex  max-[1040px]:justify-center max-[1040px]:items-center max-[1040px]:gap-2 max-sm:pl-0">
+          <p className="text-[#222222] font-semibold text-2xl max-sm:text-xl ">
+            Browse Cars <br className="max-[1040px]:hidden" /> By
           </p>{" "}
-          <p className="text-3xl text-[#9F2121]">BodyClass</p>
+          <p className="text-3xl text-[#9F2121] max-sm:text-xl">BodyClass</p>
         </div>
 
-        <div className="flex gap-5 ">
+        <div className="flex gap-5 max-[1200px]:flex-wrap max-[1200px]:justify-center">
           {/*  */}
           {/*  */}
           <div className="flex  flex-col items-center shadow-xl px-6    py-2 rounded-lg">
