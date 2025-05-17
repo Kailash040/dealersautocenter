@@ -19,7 +19,7 @@ Clone the repository
 
 bash
 git clone https://github.com/your-username/dealersautocenter.git
-cd weather-app
+cd dealersautocenter
 Install dependencies
 
 bash
