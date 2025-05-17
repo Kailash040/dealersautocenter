@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 const AddLoanCalculator = () => {
   return (
-    <div className="bg-[#6e7e8c] py-2 flex  w-full justify-between">
-      <div className="w-[50%]">
-        <div className="flex flex-col pl-20">
+    <div className="bg-[#6e7e8c] py-2 flex  w-full justify-between max-lg:flex-wrap">
+      <div className="w-[50%] max-lg:w-full">
+        <div className="flex flex-col pl-20 max-lg:pl-5 max-lg:pr-5">
           <div>
-            <h5 className="text-[#EFF0F2] text-[44px] font-semibold">
+            <h5 className="text-[#EFF0F2] text-[44px] font-semibold max-sm:text-3xl max-sm:mb-5">
               Auto Loan Calculator
             </h5>
           </div>
@@ -52,7 +52,7 @@ const AddLoanCalculator = () => {
             <div className="mt-5">
               <p className="text-[20px] text-[#CFD3D5]">Loan Terms (Monthly)</p>
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-between max-sm:flex-wrap max-lg:gap-2" >
               <button className=" text-white px-8 py-2 border border-amber-50 rounded-full hover:bg-red-700 text-3xl">
                 48
               </button>
@@ -72,17 +72,17 @@ const AddLoanCalculator = () => {
             <div className="mt-5">
               <p className="text-[20px] text-[#CFD3D5]">Approx. Credit Score</p>
             </div>
-            <div className="flex justify-between">
-              <button className=" text-white px-8 py-2 border border-amber-50 rounded-full hover:bg-red-700 text-base">
+            <div className="flex justify-between max-[1350px]:flex-wrap max-[1350px]:mt-5">
+              <button className=" text-white px-8 py-2 border border-amber-50 rounded-full hover:bg-red-700 text-base max-[1350px]:mt-2">
                 Poor <br /> 360 or less
               </button>
-              <button className=" text-white px-8 py-2 border border-amber-50 rounded-full hover:bg-red-700 text-base">
+              <button className=" text-white px-8 py-2 border border-amber-50 rounded-full hover:bg-red-700 text-base max-[1350px]:mt-2">
                 Fair <br /> 640 or 699
               </button>
-              <button className="bg-[#930505] text-white px-8 py-2 rounded-full hover:bg-red-700 text-base">
+              <button className="bg-[#930505] text-white px-8 py-2 rounded-full hover:bg-red-700 text-base max-[1350px]:mt-2">
                 Good <br /> 700 or 749
               </button>
-              <button className=" text-white px-8 py-2 border border-amber-50 rounded-full hover:bg-red-700 text-base">
+              <button className=" text-white px-8 py-2 border border-amber-50 rounded-full hover:bg-red-700 text-base max-[1350px]:mt-2">
                 Excellent
                 <br />
                 750 or 850
@@ -91,12 +91,12 @@ const AddLoanCalculator = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center ">
+      <div className="flex flex-col items-center   max-lg:justify-end max-lg:w-full max-lg:items-end max-lg:mt-5 ">
         {/*  */}
         <div className="relative">
           <div className="flex flex-col items-center  absolute top-[22%] left-[20%]">
-            <p className="text-[#F5EFEF] text-[64px] font-semibold p-0">$0</p>
-            <p className="text-[#F5EFEF] text-[64px] font-semibold p-0">
+            <p className="text-[#F5EFEF] text-[64px] font-semibold p-0 max-[480px]:text-[44px]">$0</p>
+            <p className="text-[#F5EFEF] text-[64px] font-semibold p-0 max-[480px]:text-[44px]">
               Month
             </p>
           </div>
@@ -105,7 +105,7 @@ const AddLoanCalculator = () => {
           </div>
         </div>
         {/*  */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center max-lg:w-full">
           <div>
             <p className="text-[27px] text-[#D5D7DA] font-semibold">
               Get Pre-Approved

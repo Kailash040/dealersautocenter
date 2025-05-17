@@ -13,10 +13,10 @@ export default function Home() {
       <Navbar />
       <Hero/>
       <FeaturedCars/>
-      {/* <AddLoanCalculator/> */}
-      {/* <SellYourCar/> */}
+      <AddLoanCalculator/>
+      <SellYourCar/>
       {/* <FinalCta/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
