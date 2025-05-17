@@ -15,7 +15,7 @@ export default function Home() {
       <FeaturedCars/>
       <AddLoanCalculator/>
       <SellYourCar/>
-      {/* <FinalCta/> */}
+      <FinalCta/>
       <Footer/>
     </div>
   );
