@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import FeaturedCars from "./components/FeaturedCars";
 import AddLoanCalculator from "./components/AddLoanCalculator";
 import SellYourCar from "./components/SellYourCar";
+import FinalCta from "./components/FinalCta";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <FeaturedCars/>
       <AddLoanCalculator/>
       <SellYourCar/>
+      <FinalCta/>
     </div>
   );
 }
