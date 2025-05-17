@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import FeaturedCars from "./components/FeaturedCars";
 import AddLoanCalculator from "./components/AddLoanCalculator";
+import SellYourCar from "./components/SellYourCar";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero/>
       <FeaturedCars/>
       <AddLoanCalculator/>
+      <SellYourCar/>
     </div>
   );
 }
