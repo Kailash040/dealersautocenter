@@ -1,0 +1,66 @@
+import React from "react";
+
+const Footer = () => {
+  return (
+    <div className="mt-10 bg-[#697986] px-20 list-none">
+      <div>
+        <p className="pt-10 text-[#930505] font-semibold text-[37px]">
+          Ghada Motors LLC
+        </p>
+      </div>
+      <div className="flex mt-5 ">
+        <div className="w-[50%] pl-15 flex flex-col gap-3   ">
+          <li>
+            <a href="" className="text-white text-2xl">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="" className="text-white text-2xl">
+              Inventory
+            </a>
+          </li>
+          <li>
+            <a href="" className="text-white text-2xl">
+              Finance
+            </a>
+          </li>
+        </div>
+        <div className="w-[50%] flex flex-col gap-3">
+          <li>
+            <a href="" className="text-white text-2xl">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="" className="text-white text-2xl">
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a href="" className="text-white text-2xl">
+              Terms and Conditions
+            </a>
+          </li>
+        </div>
+      </div>
+      {/*  */}
+      <div className="mx-20 pt-5 border-t-2 border-white mt-5">
+        <div>
+          {" "}
+          <p className="text-white  text-center text-lg font-medium">
+            By Calling the dealership you agree and accept to Terms and
+            Conditions of use.
+          </p>
+        </div>
+        <div>
+          <p className="text-center text-xs text-white mt-5 pb-2">
+            Powered by Dealer Auto Center Inc 2024 | All rights reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
